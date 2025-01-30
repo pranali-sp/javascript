@@ -42,3 +42,34 @@ console.log(student);
 
 const arr = new Array('priya','roshni','renuka');
 console.log(arr)
+
+// array in js dynamic
+
+const cities = ["mumbai","delhi"," jaipur","chennai", "kolkata"];
+
+console.log(cities.length);
+
+cities[4] =" calcata";
+console.log(cities);
+
+
+// adding an event
+// push()
+const team = ['csk','rcb','mi','lsg'];
+constpushArray = team.push('GT');
+console.log(team);
+
+// unshift
+team.unshift('kkr');
+console.log(team);
+
+// removing an element
+// pop
+team.pop();
+console.log(team);
+
+// shift
+team.shift();
+console.log(team);
+
+
